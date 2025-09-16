@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrity Classifier</title>
+    
+    <!-- Reference the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Football Celebrity Classifier</h1>
+        
+        <div class="celebrity-boxes">
+            <div class="celebrity-box">
+                <div class="celebrity-image">Kevin De Bruyne Photo</div>
+                <div class="celebrity-name">Kevin De Bruyne</div>
+            </div>
+            <div class="celebrity-box">
+                <div class="celebrity-image">Haaland Photo</div>
+                <div class="celebrity-name">Haaland</div>
+            </div>
+            <div class="celebrity-box">
+                <div class="celebrity-image">Messi Photo</div>
+                <div class="celebrity-name">Messi</div>
+            </div>
+        </div>
+
+        <div class="upload-section">
+            <div class="dropbox" id="dropbox">
+                <div class="dropbox-content">
+                    <div class="dropbox-icon">📸</div>
+                    <div class="dropbox-text">Drop your image here</div>
+                    <div class="dropbox-subtext">Supports: PNG, JPG, JPEG only</div>
+                    <button class="upload-button" onclick="document.getElementById('fileInput').click()">
+                        Or Click to Browse
+                    </button>
+                </div>
+            </div>
+            <input type="file" id="fileInput" class="file-input" accept=".png,.jpg,.jpeg" />
+        </div>
+
+        <div class="result-section">
+            <div class="result-content" id="resultContent">
+                <div style="color: #999; font-size: 1.1rem;">
+                    Upload an image to see the classification results
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Reference the external JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
