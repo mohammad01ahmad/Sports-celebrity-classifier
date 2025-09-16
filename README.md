@@ -26,21 +26,21 @@ Why football? Because it’s a sport I watch regularly — and since nobody aske
 ---
 
 ## 📂 Project Structure
-├── Sports Classifier/
-├── datasets/ # all training images
-├── test # All test images
-├── server/
-│ │   ├── server.py # Flask API
-│ │   └── util.py # Helper functions (model loading, prediction)
-│ │   └── wavelet.py # Stores the wavelet function
-│ │   └── requirements.txt # Versions of the library used in python
-│ ├── UI/
-| ├── index.html
-│ │   ├── script.js
-│ │   └── styles.css
-│ │   └── images/ # All images of the pfp in the project
-| ├── openCV/ # Haarcascades.xml files
-| ├── artifacts/ 
-│ │   ├── best_saved_model.pkl
-│ │   └── class_dictionary.json # Class label mappings
+├── Sports Classifier/<br>
+├── datasets/ # all training images<br>
+├── test # All test images<br>
+├── server/<br>
+│ │   ├── server.py # Flask API<br>
+│ │   └── util.py # Helper functions (model loading, prediction)<br>
+│ │   └── wavelet.py # Stores the wavelet function<br>
+│ │   └── requirements.txt # Versions of the library used in python<br>
+│ ├── UI/<br>
+| ├── index.html<br>
+│ │   ├── script.js<br>
+│ │   └── styles.css<br>
+│ │   └── images/ # All images of the pfp in the project<br>
+| ├── openCV/ # Haarcascades.xml files<br>
+| ├── artifacts/ <br>
+│ │   ├── best_saved_model.pkl<br>
+│ │   └── class_dictionary.json # Class label mappings<br>
 
