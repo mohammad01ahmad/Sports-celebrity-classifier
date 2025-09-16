@@ -40,7 +40,7 @@ Why football? Because it’s a sport I love watching — and yes nobody asked, I
 │ │   └── styles.css<br>
 │ │   └── images/ # All images of the pfp in the project<br>
 | ├── openCV/ # Haarcascades.xml files<br>
-| ├── artifacts/ <br>
+| ├── artifacts/<br>
 │ │   ├── best_saved_model.pkl<br>
 │ │   └── class_dictionary.json # Class label mappings<br>
 
