@@ -2,7 +2,7 @@
 
 This project classifies images of three world-famous football icons using **computer vision** and **machine learning**.  
 
-Why football? Because it’s a sport I watch regularly — and since nobody asked, yes, I’m a **Manchester City fan** 💙.  
+Why football? Because it’s a sport I love watching — and yes nobody asked, I’m a **Manchester City fan** 💙.  
 
 ---
 
