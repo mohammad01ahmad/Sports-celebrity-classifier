@@ -26,3 +26,23 @@ Why football? Because it’s a sport I watch regularly — and since nobody aske
 ---
 
 ## 📂 Project Structure
+├── Sports Classifier/
+├── datasets/ # all training images
+├── test # All test images
+├── server/
+│ ├── server.py # Flask API
+│ ├── util.py # Helper functions (model loading, prediction)
+| ├── wavelet.py # Stores the wavelet function
+| ├── requirements.txt # Versions of the library used in python
+│ ├── best_model.pkl # Trained SVM model
+│ ├── class_dict.json # Class label mappings
+├── UI/
+| ├── index.html
+| ├── script.js
+| ├── styles.css
+| ├── images/ # All images of the pfp in the project
+| ├── openCV/ # Haarcascades.xml files
+| ├── artifacts/ 
+| ├── ├── best_saved_model.pkl
+| ├── ├── class_dictionary.json
+
