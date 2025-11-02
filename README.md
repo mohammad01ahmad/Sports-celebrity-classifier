@@ -4,7 +4,7 @@ This project classifies images of three world-famous football icons using **comp
 
 Why football? Because it’s a sport I love watching — and yes nobody asked, but I’m a **Manchester City fan** 💙.  
 
-
+![project_ss](https://github.com/user-attachments/assets/eac4f4a8-b187-4622-acbb-39b2b9d03287)
 
 ---
 
